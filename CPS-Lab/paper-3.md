@@ -1,9 +1,9 @@
 ---
 marp: true
+theme: cpslab
 paginate: true
-header: ![CPS-Lab](https://github.com/gomadoufu/mySlides-Marp-md/blob/image/CPS-Lab/CPSLab.png?raw=true)
+header: '---'
 footer: '2023/06/05'
-
 ---
 
 # 論文輪講 第 03 回
@@ -14,7 +14,7 @@ footer: '2023/06/05'
 
 ---
 
-**読んだ論文**
+<!-- _header: '読んだ論文' -->
 
 ### HapticRevolver: Touch, Shear, Texture, and Shape Rendering on a Reconfigurable Virtual Reality Controller
 

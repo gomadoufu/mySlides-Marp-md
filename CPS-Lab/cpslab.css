@@ -18,13 +18,27 @@ section::after {
 h4 {
   color: #888888;
 }
+
+header::before {
+  content: '';
+  position: fixed;
+  top: 5px;
+  left: 970px;
+  width: 300px;
+  height: 150px;
+  background-image: url('https://github.com/gomadoufu/mySlides-Marp-md/blob/image/CPS-Lab/CPSLab.png?raw=true');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -1;
+}
+
 header {
-  position: absolute;
   background-color: #ececec;
   color: #595959;
   text-align: left;
-  font-size: 1.8em;
-  padding-top: 10px;
+  font-size: 1.6em;
+  padding-top: 15px;
   padding-left: 30px;
   border-bottom: solid 10px #595959;
   left: 50px;
@@ -33,9 +47,6 @@ header {
 }
 header img {
   position: fixed;
-  top: 5px;
-  left: 990px;
-  height: 140px;
 }
 footer {
   position: absolute;
