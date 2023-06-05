@@ -1,0 +1,54 @@
+/* @theme cpslab */
+
+@import 'uncover';
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+:root {
+  --color-background: #ffffff;
+}
+section {
+  background-image: none;
+  font-size: 30px;
+  text-align: left;
+}
+section::after {
+  font-size: 24px;
+  font-weight: bold;
+}
+h4 {
+  color: #888888;
+}
+header {
+  position: absolute;
+  background-color: #ececec;
+  color: #595959;
+  text-align: left;
+  font-size: 1.8em;
+  padding-top: 10px;
+  padding-left: 30px;
+  border-bottom: solid 10px #595959;
+  left: 50px;
+  right: 50px;
+  height: 85px;
+}
+header img {
+  position: fixed;
+  top: 5px;
+  left: 990px;
+  height: 140px;
+}
+footer {
+  position: absolute;
+  left: 50px;
+  right: 110px;
+  border-top: solid 10px #595959;
+}
+
+img[alt~='center'] {
+  display: block;
+  margin: 0 auto;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}
