@@ -58,3 +58,9 @@ footer {
 code {
   font-family: 'Source Code Pro', monospace;
 }
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
