@@ -55,13 +55,6 @@ footer {
   border-top: solid 10px #595959;
 }
 
-img[alt~='center'] {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-}
-
 code {
   font-family: 'Source Code Pro', monospace;
 }
