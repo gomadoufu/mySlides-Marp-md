@@ -15,10 +15,49 @@ const htmlTemplate = `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ファイル選択</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            padding: 50px;
+            text-align: center; /* タイトルを中央揃え */
+        }
+        h2 {
+            color: #4a90e2;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            background-color: #e6e6e6;
+            border-radius: 5px;
+            padding: 5px 15px;
+            transition: background-color 0.3s;
+            cursor: pointer; /* カーソルをポインタに */
+        }
+        li:hover {
+            background-color: #d4d4d4;
+        }
+        a {
+            display: block;  /* リストの全体がクリック可能に */
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #4a90e2;
+        }
+    </style>
 </head>
 <body>
 
-<h2>ファイルを選択してください。</h2>
+<h1>PDF・HTMLスライドビューア</h1>
+
+<h2>スライドを選択してください</h2>
 
 <ul>
     {{ range . }}
@@ -27,6 +66,9 @@ const htmlTemplate = `
 </ul>
 
 </body>
+<footer>
+	<p><small>作成: gomadoufu</small></p>
+</footer>
 </html>
 `
 
