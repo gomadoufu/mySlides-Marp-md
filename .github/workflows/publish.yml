@@ -15,12 +15,12 @@ jobs:
         uses: KoharaKazuya/marp-cli-action@v2
       - name: make directory
         run: |
-          mkdir -p ./docs
-          mv *.html ./docs/
-          mv *.pdf ./docs/
+          mkdir -p slides/docs
+          mv slides/*.html slides/docs/
+          mv slides/*.pdf slides/docs/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: slides/docs
