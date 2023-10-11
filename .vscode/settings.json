@@ -1,5 +1,3 @@
 {
-  "markdown.marp.themes": [
-    "https://raw.githubusercontent.com/gomadoufu/mySlides-Marp-md/main/CPS-Lab/cpslab.css"
-  ]
+  "markdown.marp.themes": ["https://raw.githubusercontent.com/cpslab/Marp-Template/main/cpslab.css"]
 }
