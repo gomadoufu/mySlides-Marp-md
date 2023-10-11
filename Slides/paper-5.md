@@ -18,15 +18,16 @@ footer: '2023/06/05'
 
 <!-- _header: '読んだ論文' -->
 
-### NormalTouch and TextureTouch: High-fidelity 3D Haptic Shape Rendering on Handheld Virtual Reality Controllers
+### Tactile Graphics with a Voice: Using QR Codes to Access Text in Tactile Graphics
 
-学会名: UIST '16:User Interface Software and Technology
+学会名: ASSETS '14: Proceedings of the 16th international ACM SIGACCESS conference on Computers &
+accessibility • October 2014
 
 ---
 
 # 選んだ理由
 
-- Haptic Revolver の関連研究
+- 空間音声ラベルプリンタの関連研究として。
 
 ---
 
