@@ -1,3 +1,3 @@
 module mySlides-Marp-md
 
-go 1.21.3
+go 1.20.5
