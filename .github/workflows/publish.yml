@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Convert Markdown into HTML and PDF
-        uses: KoharaKazuya.marp-cli-action@v2
+        uses: KoharaKazuya/marp-cli-action@v2
       - name: make directory
         run: |
           mkdir -p ./docs
