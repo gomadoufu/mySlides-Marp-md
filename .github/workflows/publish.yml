@@ -14,10 +14,7 @@ jobs:
       - name: Convert Markdown into HTML and PDF
         uses: KoharaKazuya/marp-cli-action@v2
       - name: make directory
-        run: |
-          mkdir -p slides/docs
-          mv slides/*.html slides/docs/
-          mv slides/*.pdf slides/docs/
+        run: cd slides && mkdir docs && mv *.html docs && mv *.pdf docs
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
